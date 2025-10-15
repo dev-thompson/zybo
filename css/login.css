@@ -1,0 +1,139 @@
+*{
+    margin: 0;
+}
+/* global design */
+:root{
+    --color:#DE600F;
+    --primary:#076333;
+    --secondary:#ffffff;
+    --tertiary:#000000;
+    --text:#555;
+    --item:#fbfbfb;
+    --span:#c6c6c6;
+    --family:sans-serif;
+    --border:#e9e9e9;
+}
+.margin-1{
+    margin: 0 7%;
+}
+.margin{
+    margin:0 5%;
+}
+/* end of global design */
+body{
+    background-color: var(--secondary);
+    font-family:var(--family);
+}
+
+/* hero section */
+.page{
+    padding:30px 0 20px 0;
+}
+
+.page-right p{
+    font-size: 14px;
+    color: var(--text);
+}
+.page-right a{
+    text-decoration: none;
+    color: var(--primary);
+    font-size: 14px;
+    font-weight: bold;
+}
+.page-content{
+    display: flex;
+    justify-content: space-between;
+}
+/* end of hero section */
+
+/* input section */
+
+.all-hero{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    align-items: center;    
+}
+.pic{
+    width: 100%;
+}
+.pic:hover{
+    filter: brightness(90%);
+    transition: 2s ease-in-out;
+}
+.pic img{
+    width: 100%;
+}
+.hero-content h4{
+    text-align: center;
+    font-weight: bold;
+    color: var(--primary);
+}
+.hero-content p{
+    text-align: center;
+    font-size: 14px;
+    padding-bottom: 10px;
+    color: var(--text);
+}
+.text label{
+    font-size: 14px;
+    color: var(--primary);
+}
+.text ::placeholder{
+    font-size: 13px;
+}
+.for a{
+    text-decoration: none;
+    font-size: 13.3px;
+    color: var(--primary);
+}
+.for{
+    display: flex;
+    margin-bottom: 20px;
+    justify-self: right;
+}
+.create {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.create-left a{
+    text-decoration: none;
+    color: var(--primary);
+    font-size: 13.3px;
+}
+.create-right button{
+    border: none;
+    outline: none;
+    background-color: var(--primary);
+    color: var(--secondary);
+    font-weight: bold;
+    font-size: 15px;
+    padding: 7px 15px;
+    border-radius: 6px;
+}
+.all-text{
+    padding:35px 30px;
+    border: 0.1px solid var(--border);
+    background-color: var(--secondary);
+    width: 100%;
+}
+.create-right button:hover{
+    background-color: var(--color);
+    color: var(--secondary);
+    transition: 1s ease-in-out;
+}
+.input-group-text {
+    background-color:var(--primary);
+    cursor: pointer;
+}
+.input-group-text:hover {
+    background-color:var(--color);
+    transition: 1s ease-in-out;
+}
+.input-group i{
+    color: var(--secondary);
+    font-size: 1.3rem;
+}
+/* end of input section */
+
+

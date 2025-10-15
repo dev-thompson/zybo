@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="./logos/favicon.png" type="image/x-icon">
+    <link rel="stylesheet" href="./dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./font/bootstrap-icons.css">
+    <link rel="stylesheet" href="./icons/css/all.css">
+    <link rel="stylesheet" href="./css/account.css">
+    <title>account</title>
+</head>
+<body>
+
+    <div class="all-dashboard">
+        <div class="dashboard-content">
+            <p><a href="">Home</a> <i class="bi-chevron-right"></i> My Account</p>
+            <div class="dashboard-item">
+            <div class="dash-left">
+                <div class="left-item">
+                    <h6 id="type-1"><i class="bi-arrow-right"></i>Dashboard</h6>
+                    <div class="p"></div>
+                    <h6 id="type-2"><i class="bi-arrow-right"></i>Orders</h6>
+                    <div class="p"></div>
+                    <h6 id="type-3"><i class="bi-arrow-right"></i>Pending Reviews</h6>
+                    <div class="p"></div>
+                    <h6 id="type-4"><i class="bi-arrow-right"></i>Downloads</h6>
+                    <div class="p"></div>
+                    <h6 id="type-5"><i class="bi-arrow-right"></i>Address Book</h6>
+                    <div class="p"></div>
+                    <h6 id="type-6"><i class="bi-arrow-right"></i>Account Details</h6>
+                    <div class="p"></div>
+                    <h6 id="type-7"><i class="bi-arrow-right"></i>Sign Out</h6>
+                    <div class="p"></div>
+                </div>
+            </div>
+            <div class="dash-right">
+                <div class="right-item">
+                    <div id="text-1" class="over">
+                        <h6>
+                            Account Overview
+                            <div class="c"></div>
+                        </h6>
+                    
+                    <div class="right-details">
+                    <div class="right-content">
+                        <div class="right-1">
+                            <div class="details">
+                                <h5>Account Details</h5>
+                                <p>John Thompson</p>
+                                <p>johnthompson@gmail.com</p>
+                            </div>
+                            <div class="wallet">
+                                <h5><span>Zybo</span> Store Credit</h5>
+                                <p>Zybo store credit balance:<i class="fa fa-naira-sign"></i>5,000</p>
+                                <button>Fund Wallet</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="ship">
+                        <h5>Shipping Address</h5>
+                        <p class="pb-5">John Thompson</p>
+                        <h6 id="text1">No:12 alpha-road Abuja</h6>
+                        <h6 id="text2">09069022856</h6>
+                        <h6>johnthompson@gmail.com</h6>
+                        <a href="#" data-bs-toggle="modal" data-bs-target="#imageModal">Edit <i class="bi-pencil-square" style="font-size: 0.7rem;"></i></a>
+                    </div>
+
+                     <!-- Modal -->
+ <div class="modal fade" id="imageModal" tabindex="-1" aria-labelledby="imageModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h6 style="color:#DE600F;" class="modal-title fs-7" id="imageModalLabel">Make Your Changes</h6>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <form id="editForm">
+            <div class="form-group mb-3">
+                <label for="address">New Address</label>
+                <input type="text" name="address" value="No:12 alpha-road Abuja" id="address" class="form-control">
+            </div>
+            <div class="form-group">
+                <label for="phone">New Phone Number</label>
+                <input type="tel" name="phone" value="09069022856" id="phone" class="form-control">
+            </div>
+        </form>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="no" data-bs-dismiss="modal">Cancel</button>
+        <button type="submit" id="confirm" class="ok">Confirm</button>
+    </div>
+    </div>
+  </div>
+  </div>
+    <!-- End of modal -->
+                </div>
+            </div>
+
+                <div id="text-2" class="orders">
+                    <h6>
+                        Orders
+                        <div class="c"></div>
+                    </h6>
+                    <div class="order-items">
+                        <div class="order-1 mb-4">
+                            <div class="o-text">
+                                    <img width="70" src="./Tshirts/6.jpg" alt="">
+                                    <div class="ot">
+                                        <h5>Men's Casual Mens Short Sleeve Tshirt</h5>
+                                    <h6>Order 12568793</h6>
+                                    <p>DELIVERED</p>
+                                    </div>
+                                </div>
+                                <div class="see">
+                                    <a href="">See Details</a>
+                                </div>
+                        </div>
+                        <div class="order-1 mb-4">
+                            <div class="o-text">
+                                    <img width="70" src="./ladies/21.jpeg" alt="">
+                                    <div class="ot">
+                                        <h5>Fancy Ladies Handbag</h5>
+                                    <h6>Order 65883793</h6>
+                                    <p>CONFIRMED</p>
+                                    </div>
+                                </div>
+                                <div class="see">
+                                    <a href="">See Details</a>
+                                </div>
+                        </div>
+                        <div class="order-1">
+                            <div class="o-text">
+                                    <img width="70" src="./jacket/7.webp" alt="">
+                                    <div class="ot">
+                                        <h5>Unisex Casual Jacket</h5>
+                                    <h6>Order 14332793</h6>
+                                    <p>DELIVERED</p>
+                                    </div>
+                                </div>
+                                <div class="see">
+                                    <a href="">See Details</a>
+                                </div>
+                        </div>
+                    </div>
+                </div>
+                
+            </div>
+
+            </div>
+        </div>
+        </div>
+    </div>
+
+    <div class="background-image">
+        <div class="get">
+            <h4>Get The Latest Deals</h4>
+            <p>and receive <i class="fa fa-naira-sign"></i> 20,000 coupon for first shopping</p>
+            <div class="input-group">
+                <input type="email" name="email" id="email" placeholder="Enter your email address" class="form-control p-2">
+                <span class="input-group-text"> Subscribe <i class="bi-chevron-double-right" style="font-size: 0.7rem;"></i></span>
+            </div>
+        </div>
+    </div>
+
+    <script src="./dist/js/bootstrap.bundle.js"></script>
+    <script src="./js/account.js"></script>
+</body>
+</html>

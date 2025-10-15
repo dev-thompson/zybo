@@ -1,0 +1,1579 @@
+<!DOCTYPE html>
+<html lang="en"> 
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="./logos/favicon.png" type="image/x-icon">
+    <link rel="stylesheet" href="./font/bootstrap-icons.css">
+    <link rel="stylesheet" href="./icons/css/all.css">
+    <link rel="stylesheet" href="./dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./css/index.css">
+    <link rel="stylesheet" href="./css/media.css">
+    <title>Zybo</title>
+</head>
+
+        <!-- <style>
+    body{
+        margin: 0;
+    }
+    #preloader{
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background-color:#f3f3f3;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        z-index: 1000;
+    }
+    .preloader-image {
+        width: 150px;
+        height: 150px;
+        animation: zoom-in-out 3s ease-in-out infinite;
+    }
+    @keyframes zoom-in-out{
+        0%{
+            transform: scale(1);
+        }
+        30%{
+            transform: scale(1.5);
+        }
+        50%{
+            transform: scale(1);
+        }
+        80%{
+            transform: scale(1.2);
+        }
+        100%{
+            transform: scale(1);
+        }
+    }
+    .content {
+        display: none;
+    }
+    
+  </style> -->
+<body>
+  
+  <!-- <div id ="preloader">
+    <img src="./logos/favicon.png" alt="preloader image" class="preloader-image">
+</div>
+<div class="content"> -->
+        <div class="intro">
+            <div class="intro-content">
+                <div class="intro-1">
+                    <p><i class="bi-telephone-inbound "></i> +2348107723149</p>
+                <p><i class="bi-whatsapp "></i> +2348107723149</p>
+                </div>
+                <div class="intro-2">
+                    <p>Experience the Art of Easy Shopping with <span>Zybo</span></p>
+                </div>
+                <div class="intro-3">
+                    <p><a href="">Help <i class="bi-question-circle"></i></a></p>
+                    <p>English <i class="bi-chevron-down" style="font-size: 0.8rem;"></i></p>
+                    <p>Dollar <i class="bi-chevron-down" style="font-size: 0.8rem;"></i></p>
+            </div>
+            </div>
+        </div>
+    <!-- navigation -->
+    <nav id="sidebar">
+      <div class="side-content">
+      <div class="side-logo">
+          <img width="100" src="./logos/foot.png" alt="">
+      </div>
+          <div class="middle">
+            <div class="in margin-1">
+              <input type="text" name="" id="" placeholder="Search Products" class="form-control mb-4">
+            </div>
+            <div class="side-line"></div>
+              <p class="d-inline-flex margin-1">
+                <div class="cat margin-1">
+                  <i class="bi-grid-fill" style="font-size: 1.7rem;"></i>
+                  <a class="dropdown-toggle" data-bs-toggle="collapse" href="#multiCollapseExample1" role="text" aria-expanded="false" aria-controls="multiCollapseExample1">Categories</i></a>
+                </div>
+                  <div class="row">
+                      <div class="col">
+                        <div class="collapse multi-collapse margin-1 mt-2" id="multiCollapseExample1">
+                          <span><a href="">Fashion 1</a></span>
+                          <span><a href="">Fashion 2</a></span>
+                          <span><a href="">Cosmetics</a></span>
+                          <span><a href="">Electronics</a></span>
+                          <span><a href="">Accessories</a></span>
+                          <span><a href="dashboard.html">Dashboard</a></s an>
+                          <span><a href="">Contact</a></span>
+                        </div>
+                      </div>
+                    </div>
+              </p>
+              <div class="side-line mb-3"></div>
+              <div class="side-right">
+                  <div class="side-item margin-1">
+                      <a href=""><i class="bi-heart-fill" style="font-size: 1.7rem;"></i></a>
+                      <a href="">Wishlist</a>
+                  </div>
+                  <div class="side-line mb-3 mt-3"></div>
+                  <div class="side-item margin-1">
+                      <a href=""><i class="bi-cart4" style="font-size: 1.7rem;"></i></a>
+                      <a href="">Cart</a>
+                  </div>
+                  <div class="side-line mb-3 mt-3"></div>
+                  <div class="side-item margin-1">
+                      <a href="login.html"><i class="bi-person-fill" style="font-size: 1.7rem;"></i></a>
+                      <a href="login.html">Login</a>
+                  </div>
+                  <div class="side-line mb-3 mt-3"></div>
+                  <div class="side-item margin-1">
+                      <a href=""><i class="bi-telephone-fill" style="font-size: 1.6rem;"></i></a>
+                      <a href="">Contact Us</a>
+                  </div>
+                  <div class="side-line mb-3 mt-3"></div>
+                  <div class="side-item margin-1">
+                      <a href=""><i class="bi-info-circle-fill" style="font-size: 1.7rem;"></i></a>
+                      <a href="">About Us</a>
+                  </div>
+              </div>
+          </div>
+      </div>
+  </nav>   
+
+    <div class="all-navbar">
+        <div class="navbar-content margin">
+            <div class="left">
+                <div class="logo">
+                    <a href=""><img width="100" src="./logos/logo.png" alt=""></a>
+                </div>
+                <div class="category">
+                <a role="text" data-bs-toggle="dropdown" aria-expanded="false">Categories <i class="bi-chevron-down" style="font-size: 0.8rem;"></i></a>
+                    <ul class="dropdown-menu">
+                        <li><a class="dropdown-item" href="#">Fashion 1</a></li>
+                        <li><a class="dropdown-item" href="#">Fashion 2</a></li>
+                        <li><a class="dropdown-item" href="#">Cosmetics</a></li>
+                        <li><a class="dropdown-item" href="#">Electronics</a></li>
+                        <li><a class="dropdown-item" href="#">Accessories</a></li>
+                        <li><a class="dropdown-item" href="dashboard.html">Dashboard</a></li>
+                        <li><a class="dropdown-item" href="#">Contact</a></li>
+                      </ul>
+                </div>
+            </div>
+            <div class="center form-control">
+                <img width="20" src="./logos/fav.png" alt="">
+                <input type="text" name="" id="" placeholder="Search Products">
+            </div>
+            <div class="right">
+                <div class="right-item">
+                    <a href=""><i class="bi-heart" style="font-size: 1.7rem;"></i></a>
+                    <a href="">Wishlist</a>
+                </div>
+                <div class="right-item">
+                    <a href=""><i class="bi-cart4" style="font-size: 1.7rem;"></i></a>
+                    <a href="">Cart</a>
+                </div>
+                <div class="right-item">
+                    <a href="login.html"><i class="bi-person-fill" style="font-size: 1.7rem;"></i></a>
+                    <a href="login.html">Login</a>
+                </div>
+            </div>
+            <div id="bars">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </div>
+  <!-- end of navigation -->
+
+
+      <!-- item section -->
+       <div class="all-items margin">
+        <div class="item-content slider">
+            <div class="item-1 slide">
+              <a href=""> 
+              <img width="80" src="./watch/1.webp" alt="">
+              <h6>Watch</h6>
+              <p>200 items</p>
+            </a>
+            </div>
+            <div class="item-1 slide">
+              <a href=""> 
+              <img width="80" src="./Tshirts/11.webp" alt="">
+              <h6>Shirt</h6>
+              <p>400 items</p>
+            </a>
+            </div>
+            <div class="item-1 slide">
+              <a href=""> 
+              <img width="80" src="./ladies/14.webp" alt="">
+              <h6>Bag</h6>
+              <p>100 items</p>
+            </a>
+            </div>
+            <div class="item-1 slide">
+              <a href=""> 
+              <img width="80" src="./jacket/2.webp" alt="">
+              <h6>Jacket</h6>
+              <p>180 items</p>
+            </a>
+            </div>
+            <div class="item-1 slide">
+              <a href=""> 
+              <img width="80" src="./shoe/6.jpeg" alt="">
+              <h6>Shoe</h6>
+              <p>250 items</p>
+            </a>
+            </div>
+        </div>
+       </div>
+      <!-- end of item section -->
+
+      <!-- days section  -->
+
+      <div class="all-days margin">
+        <div class="days-content">
+          <div class="days-left">
+            <h4>Day Of The <span>Deal</span></h4>
+            <p>Dont't wait. The time will never be just right.</p>
+          </div>
+          <div class="days-right">
+            <div id="countdown">
+              <span id="days"></span>
+              <span id="hours"></span>
+              <span id="minutes"></span>
+              <span id="seconds"></span>
+            </div>
+          </div>
+        </div>
+        <div class="all-product">
+          <div class="product-content">
+            <div class="product-item">            
+                <img width="200" src="./Tshirts/3.webp" alt="">
+              <div class="terms">
+                <h5>Tshirts</h5>
+                <h6>Unisex Tshirts</h6>
+                <i class="bi-star-fill"></i><i class="bi-star-fill"></i><i class="bi-star-fill"></i><i class="bi-star-half"></i><i class="bi-star"></i>
+                <div class="price">
+                  <p><i class="bi-currency-dollar" style="font-size: 1.2rem;"></i>25.00 <span>30.00</span></p>
+                </div>
+                <div class="add">
+                  <div class="add-content">
+                    <button id="add-cart">Add to Cart</button>
+                  <i id="Wishlist" class="bi-heart" style="font-size: 2rem;"></i>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="product-item">            
+                <img width="200" src="./ladies/16.jpeg" alt="">
+              <div class="terms">
+                <h5>Silver Shoe</h5>
+                <h6>Ladies Fashion Shoe</h6>
+                <i class="bi-star-fill"></i><i class="bi-star-fill"></i><i class="bi-star-fill"></i><i class="bi-star-fill"></i><i class="bi-star"></i>
+                <div class="price">
+                  <p><i class="bi-currency-dollar" style="font-size: 1.2rem;"></i>70.00 <span>90.00</span></p>
+                </div>
+                <div class="add">
+                  <div class="add-content">
+                    <button id="add-cart">Add to Cart</button>
+                  <i id="Wishlist" class="bi-heart" style="font-size: 2rem;"></i>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="product-item">             
+                <img width="200" src="./ladies/17.jpeg" alt="">
+              <div class="terms">
+                <h5>Lipstick</h5>
+                <h6>Red Lipstick</h6>
+                <i class="bi-star-fill"></i><i class="bi-star-fill"></i><i class="bi-star-fill"></i><i class="bi-star"></i><i class="bi-star"></i>
+                <div class="price">
+                  <p><i class="bi-currency-dollar" style="font-size: 1.2rem;"></i>15.00 <span>20.00</span></p>
+                </div>
+                <div class="add">
+                  <div class="add-content">
+                    <button id="add-cart">Add to Cart</button>
+                  <i id="Wishlist" class="bi-heart" style="font-size: 2rem;"></i>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="product-item ">
+                <img width="200" src="./mens/2.webp" alt="">
+              <div class="terms">
+                <h5>Cargo Pant</h5>
+                <h6>Unisex Cargo Pant</h6>
+                <i class="bi-star-fill"></i><i class="bi-star-fill"></i><i class="bi-star-fill"></i><i class="bi-star-half"></i><i class="bi-star"></i>
+                <div class="price">
+                  <p><i class="bi-currency-dollar" style="font-size: 1.2rem;"></i>50.00 <span>65.00</span></p>
+                </div>
+                <div class="add">
+                  <div class="add-content">
+                    <button id="add-cart">Add to Cart</button>
+                  <i id="Wishlist" class="bi-heart" style="font-size: 2rem;"></i>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="product-item">
+                <img width="200" src="./jacket/4.webp" alt="">
+              <div class="terms">
+                <h5>Puffer Jacket</h5>
+                <h6>Unisex Puffer Jacket</h6>
+                <i class="bi-star-fill"></i><i class="bi-star-fill"></i><i class="bi-star-fill"></i><i class="bi-star-half"></i><i class="bi-star"></i>
+                <div class="price">
+                  <p><i class="bi-currency-dollar" style="font-size: 1.2rem;"></i>60.00 <span>75.00</span></p>
+                </div>
+                <div class="add">
+                  <div class="add-content">
+                    <button id="add-cart">Add to Cart</button>
+                  <i id="Wishlist" class="bi-heart" style="font-size: 2rem;"></i>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- end of days section  -->
+
+      <!-- summer section -->
+       <div class="summer margin">
+        <div class="summer-image">
+          <div class="summer-text">
+            <p>30% off Sale</p>
+            <h4>
+              <span>Latest Exclusive</span>
+              <span>Summer Collection</span>
+            </h4>
+            <a href=""><button>Shop now <i class="bi-chevron-double-right" style="font-size: 0.8rem;"></i></button></a>
+          </div>
+        </div>
+       </div>
+       <!-- end of summer section -->
+
+         <!-- all section  -->
+
+      <div class="all-days margin">
+        <div class="days-content">
+          <div class="days-left">
+            <h4>New <span>Arrivals</span></h4>
+            <p>Shop online for a new arrivals and get free shipping!</p>
+          </div>
+          <div class="days-right">
+            <div class="days-item">
+              <p class="type" id="type-1">ALL</p>
+              <p class="type" id="type-2">CLOTHES</p>
+              <p class="type" id="type-3">FOOTWEAR</p>
+              <p class="type" id="type-4">ACCESSORIES</p>
+            </div>
+          </div>
+        </div>
+        <div class="all" id="text-1">
+          <div class="all-content">
+            <div class="all-item">
+                <img width="200" src="./shoe/7.jpeg" alt="">
+              <div class="terms">
+                <h5>Shoe</h5>
+                <h6>Unisex Shoe</h6>
+                <i class="bi-star-fill"></i><i class="bi-star-fill"></i><i class="bi-star-fill"></i><i class="bi-star-half"></i><i class="bi-star"></i>
+                <div class="price">
+                  <p><i class="bi-currency-dollar" style="font-size: 1.2rem;"></i>25.00 <span>30.00</span></p>
+                </div>
+                <div class="add">
+                  <div class="add-content">
+                    <button id="add-cart">Add to Cart</button>
+                  <i id="Wishlist" class="bi-heart" style="font-size: 2rem;"></i>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="all-item">
+                <img width="200" src="./mens/3.webp" alt="">
+              <div class="terms">
+                <h5>Boxer's</h5>
+                <h6>Colored Boxer's</h6>
+                <i class="bi-star-fill"></i><i class="bi-star-fill"></i><i class="bi-star-fill"></i><i class="bi-star-fill"></i><i class="bi-star"></i>
+                <div class="price">
+                  <p><i class="bi-currency-dollar" style="font-size: 1.2rem;"></i>20.00 <span>33.00</span></p>
+                </div>
+                <div class="add">
+                  <div class="add-content">
+                    <button id="add-cart">Add to Cart</button>
+                  <i id="Wishlist" class="bi-heart" style="font-size: 2rem;"></i>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="all-item">
+                <img width="200" src="./ladies/14.webp" alt="">
+              <div class="terms">
+                <h5>Hand Bag</h5>
+                <h6>Lady's hand bag</h6>
+                <i class="bi-star-fill"></i><i class="bi-star-fill"></i><i class="bi-star-fill"></i><i class="bi-star"></i><i class="bi-star"></i>
+                <div class="price">
+                  <p><i class="bi-currency-dollar" style="font-size: 1.2rem;"></i>35.00 <span>20.00</span></p>
+                </div>
+                <div class="add">
+                  <div class="add-content">
+                    <button id="add-cart">Add to Cart</button>
+                  <i id="Wishlist" class="bi-heart" style="font-size: 2rem;"></i>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="all-item">
+                <img width="200" src="./ladies/9.JPG" alt="">
+              <div class="terms">
+                <h5>Atomizer</h5>
+                <h6>Perfume Atomizer</h6>
+                <i class="bi-star-fill"></i><i class="bi-star-fill"></i><i class="bi-star-fill"></i><i class="bi-star-half"></i><i class="bi-star"></i>
+                <div class="price">
+                  <p><i class="bi-currency-dollar" style="font-size: 1.2rem;"></i>40.00 <span>65.00</span></p>
+                </div>
+                <div class="add">
+                  <div class="add-content">
+                    <button id="add-cart">Add to Cart</button>
+                  <i id="Wishlist" class="bi-heart" style="font-size: 2rem;"></i>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="all-item">
+                <img width="200" src="./Tshirts/13.png" alt="">
+              <div class="terms">
+                <h5>T-shirt</h5>
+                <h6>collar Shirt</h6>
+                <i class="bi-star-fill"></i><i class="bi-star-fill"></i><i class="bi-star-fill"></i><i class="bi-star-half"></i><i class="bi-star"></i>
+                <div class="price">
+                  <p><i class="bi-currency-dollar" style="font-size: 1.2rem;"></i>45.00 <span>65.00</span></p>
+                </div>
+                <div class="add">
+                  <div class="add-content">
+                    <button id="add-cart">Add to Cart</button>
+                  <i id="Wishlist" class="bi-heart" style="font-size: 2rem;"></i>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="all-item">
+                <img width="200" src="./jacket/4.webp" alt="">
+              <div class="terms">
+                <h5>Jacket</h5>
+                <h6>Unisex Puffer Jacket</h6>
+                <i class="bi-star-fill"></i><i class="bi-star-fill"></i><i class="bi-star-fill"></i><i class="bi-star-half"></i><i class="bi-star"></i>
+                <div class="price">
+                  <p><i class="bi-currency-dollar" style="font-size: 1.2rem;"></i>58.00 <span>60.00</span></p>
+                </div>
+                <div class="add">
+                  <div class="add-content">
+                    <button id="add-cart">Add to Cart</button>
+                  <i id="Wishlist" class="bi-heart" style="font-size: 2rem;"></i>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="all-item">
+                <img width="200" src="./shoe/10.jpeg" alt="">
+              <div class="terms">
+                <h5>Shoe</h5>
+                <h6>Unisex Fashion Shoe</h6>
+                <i class="bi-star-fill"></i><i class="bi-star-fill"></i><i class="bi-star-fill"></i><i class="bi-star-fill"></i><i class="bi-star"></i>
+                <div class="price">
+                  <p><i class="bi-currency-dollar" style="font-size: 1.2rem;"></i>30.00 <span>55.00</span></p>
+                </div>
+                <div class="add">
+                  <div class="add-content">
+                    <button id="add-cart">Add to Cart</button>
+                  <i id="Wishlist" class="bi-heart" style="font-size: 2rem;"></i>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="all-item">
+                <img width="200" src="./ladies/17.jpeg" alt="">
+              <div class="terms">
+                <h5>Lipstick</h5>
+                <h6>Red Lipstick</h6>
+                <i class="bi-star-fill"></i><i class="bi-star-fill"></i><i class="bi-star-fill"></i><i class="bi-star"></i><i class="bi-star"></i>
+                <div class="price">
+                  <p><i class="bi-currency-dollar" style="font-size: 1.2rem;"></i>15.00 <span>20.00</span></p>
+                </div>
+                <div class="add">
+                  <div class="add-content">
+                    <button id="add-cart">Add to Cart</button>
+                  <i id="Wishlist" class="bi-heart" style="font-size: 2rem;"></i>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="all-item">
+                <img width="200" src="./ladies/1.webp" alt="">
+              <div class="terms">
+                <h5>Boot</h5>
+                <h6>White puffer boot</h6>
+                <i class="bi-star-fill"></i><i class="bi-star-fill"></i><i class="bi-star-fill"></i><i class="bi-star-half"></i><i class="bi-star"></i>
+                <div class="price">
+                  <p><i class="bi-currency-dollar" style="font-size: 1.2rem;"></i>50.00 <span>65.00</span></p>
+                </div>
+                <div class="add">
+                  <div class="add-content">
+                    <button id="add-cart">Add to Cart</button>
+                  <i id="Wishlist" class="bi-heart" style="font-size: 2rem;"></i>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="all-item">
+                <img width="200" src="./watch/4.jpeg" alt="">
+              <div class="terms">
+                <h5>Wrist Watch</h5>
+                <h6>Chain Watch</h6>
+                <i class="bi-star-fill"></i><i class="bi-star-fill"></i><i class="bi-star-fill"></i><i class="bi-star-half"></i><i class="bi-star"></i>
+                <div class="price">
+                  <p><i class="bi-currency-dollar" style="font-size: 1.2rem;"></i>60.00 <span>75.00</span></p>
+                </div>
+                <div class="add">
+                  <div class="add-content">
+                    <button id="add-cart">Add to Cart</button>
+                  <i id="Wishlist" class="bi-heart" style="font-size: 2rem;"></i>
+                  </div>
+                </div>
+              </div>
+            </div>
+        </div>
+      </div>
+      </div>
+      <!-- end of all section -->
+
+      <!-- clothes section -->
+       <div class="clothes margin" id="text-2">
+      <div class="clothes-content">
+        <div class="clothes-item">
+            <img width="200" src="./jacket/3.webp" alt="">
+          <div class="terms">
+            <h5>Jacket</h5>
+            <h6>Black Puffer Jacket</h6>
+            <i class="bi-star-fill"></i><i class="bi-star-fill"></i><i class="bi-star-fill"></i><i class="bi-star-half"></i><i class="bi-star"></i>
+            <div class="price">
+              <p><i class="bi-currency-dollar" style="font-size: 1.2rem;"></i>65.00 <span>70.00</span></p>
+            </div>
+            <div class="add">
+              <div class="add-content">
+                <button id="add-cart">Add to Cart</button>
+              <i id="Wishlist" class="bi-heart" style="font-size: 2rem;"></i>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="clothes-item">
+            <img width="200" src="./Tshirts/10.webp" alt="">
+          <div class="terms">
+            <h5>Men's Wear</h5>
+            <h6>Fashion T-shirt</h6>
+            <i class="bi-star-fill"></i><i class="bi-star-fill"></i><i class="bi-star-fill"></i><i class="bi-star-fill"></i><i class="bi-star"></i>
+            <div class="price">
+              <p><i class="bi-currency-dollar" style="font-size: 1.2rem;"></i>35.00 <span>50.00</span></p>
+            </div>
+            <div class="add">
+              <div class="add-content">
+                <button id="add-cart">Add to Cart</button>
+              <i id="Wishlist" class="bi-heart" style="font-size: 2rem;"></i>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="clothes-item">
+            <img width="200" src="./mens/2.webp" alt="">
+          <div class="terms">
+            <h5>Cargo Pant</h5>
+            <h6>Unisex Cargo Pant</h6>
+            <i class="bi-star-fill"></i><i class="bi-star-fill"></i><i class="bi-star-fill"></i><i class="bi-star"></i><i class="bi-star"></i>
+            <div class="price">
+              <p><i class="bi-currency-dollar" style="font-size: 1.2rem;"></i>41.00 <span>60.00</span></p>
+            </div>
+            <div class="add">
+              <div class="add-content">
+                <button id="add-cart">Add to Cart</button>
+              <i id="Wishlist" class="bi-heart" style="font-size: 2rem;"></i>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="clothes-item">
+            <img width="200" src="./Tshirts/12.png" alt="">
+          <div class="terms">
+            <h5>Short Sleeve</h5>
+            <h6>Printed T-shirt</h6>
+            <i class="bi-star-fill"></i><i class="bi-star-fill"></i><i class="bi-star-fill"></i><i class="bi-star-half"></i><i class="bi-star"></i>
+            <div class="price">
+              <p><i class="bi-currency-dollar" style="font-size: 1.2rem;"></i>33.00 <span>45.00</span></p>
+            </div>
+            <div class="add">
+              <div class="add-content">
+                <button id="add-cart">Add to Cart</button>
+              <i id="Wishlist" class="bi-heart" style="font-size: 2rem;"></i>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="clothes-item">
+            <img width="200" src="./mens/1.webp" alt="">
+          <div class="terms">
+            <h5>Joggers</h5>
+            <h6>Unisex Joggers</h6>
+            <i class="bi-star-fill"></i><i class="bi-star-fill"></i><i class="bi-star-fill"></i><i class="bi-star-half"></i><i class="bi-star"></i>
+            <div class="price">
+              <p><i class="bi-currency-dollar" style="font-size: 1.2rem;"></i>50.00 <span>75.00</span></p>
+            </div>
+            <div class="add">
+              <div class="add-content">
+                <button id="add-cart">Add to Cart</button>
+              <i id="Wishlist" class="bi-heart" style="font-size: 2rem;"></i>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="clothes-item">
+            <img width="200" src="./jacket/7.webp" alt="">
+          <div class="terms">
+            <h5>Jacket</h5>
+            <h6>Brown Fashion Jacket</h6>
+            <i class="bi-star-fill"></i><i class="bi-star-fill"></i><i class="bi-star-fill"></i><i class="bi-star-half"></i><i class="bi-star"></i>
+            <div class="price">
+              <p><i class="bi-currency-dollar" style="font-size: 1.2rem;"></i>60.00 <span>75.00</span></p>
+            </div>
+            <div class="add">
+              <div class="add-content">
+                <button id="add-cart">Add to Cart</button>
+              <i id="Wishlist" class="bi-heart" style="font-size: 2rem;"></i>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="clothes-item">
+            <img width="200" src="./mens/4.webp" alt="">
+          <div class="terms">
+            <h5>Jean Trouser</h5>
+            <h6>Unisex Jean Trouser</h6>
+            <i class="bi-star-fill"></i><i class="bi-star-fill"></i><i class="bi-star-fill"></i><i class="bi-star-half"></i><i class="bi-star"></i>
+            <div class="price">
+              <p><i class="bi-currency-dollar" style="font-size: 1.2rem;"></i>54.00 <span>65.00</span></p>
+            </div>
+            <div class="add">
+              <div class="add-content">
+                <button id="add-cart">Add to Cart</button>
+              <i id="Wishlist" class="bi-heart" style="font-size: 2rem;"></i>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="clothes-item">
+            <img width="200" src="./jacket/1.webp" alt="">
+          <div class="terms">
+            <h5>Jean Jacket</h5>
+            <h6>Unisex Jean Jacket</h6>
+            <i class="bi-star-fill"></i><i class="bi-star-fill"></i><i class="bi-star-fill"></i><i class="bi-star-half"></i><i class="bi-star"></i>
+            <div class="price">
+              <p><i class="bi-currency-dollar" style="font-size: 1.2rem;"></i>60.00 <span>75.00</span></p>
+            </div>
+            <div class="add">
+              <div class="add-content">
+                <button id="add-cart">Add to Cart</button>
+              <i id="Wishlist" class="bi-heart" style="font-size: 2rem;"></i>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="clothes-item">
+            <img width="200" src="./Tshirts/16.jpg" alt="">
+          <div class="terms">
+            <h5>T-shirt</h5>
+            <h6>White Printed T-shirt</h6>
+            <i class="bi-star-fill"></i><i class="bi-star-fill"></i><i class="bi-star-fill"></i><i class="bi-star-half"></i><i class="bi-star"></i>
+            <div class="price">
+              <p><i class="bi-currency-dollar" style="font-size: 1.2rem;"></i>40.00 <span>55.00</span></p>
+            </div>
+            <div class="add">
+              <div class="add-content">
+                <button id="add-cart">Add to Cart</button>
+              <i id="Wishlist" class="bi-heart" style="font-size: 2rem;"></i>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="clothes-item">
+            <img width="200" src="./jacket/6.webp" alt="">
+          <div class="terms">
+            <h5>Puffer Jacket</h5>
+            <h6>Unisex Puffer Jacket</h6>
+            <i class="bi-star-fill"></i><i class="bi-star-fill"></i><i class="bi-star-fill"></i><i class="bi-star-half"></i><i class="bi-star"></i>
+            <div class="price">
+              <p><i class="bi-currency-dollar" style="font-size: 1.2rem;"></i>70.00 <span>75.00</span></p>
+            </div>
+            <div class="add">
+              <div class="add-content">
+                <button id="add-cart">Add to Cart</button>
+              <i id="Wishlist" class="bi-heart" style="font-size: 2rem;"></i>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+      <!-- end of clothes section -->
+
+
+      <!-- footwear section -->
+       <div class="footwear margin" id="text-3">
+      <div class="footwear-content">
+        <div class="footwear-item">
+            <img width="200" src="./shoe/2.jpeg" alt="">
+          <div class="terms">
+            <h5>Men's Shoe</h5>
+            <h6>Men's Corporate Shoe</h6>
+            <i class="bi-star-fill"></i><i class="bi-star-fill"></i><i class="bi-star-fill"></i><i class="bi-star-half"></i><i class="bi-star"></i>
+            <div class="price">
+              <p><i class="bi-currency-dollar" style="font-size: 1.2rem;"></i>25.00 <span>30.00</span></p>
+            </div>
+            <div class="add">
+              <div class="add-content">
+                <button id="add-cart">Add to Cart</button>
+              <i id="Wishlist" class="bi-heart" style="font-size: 2rem;"></i>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="footwear-item">
+            <img width="200" src="./shoe/9.jpeg" alt="">
+          <div class="terms">
+            <h5>white Converse</h5>
+            <h6>Unisex Converse</h6>
+            <i class="bi-star-fill"></i><i class="bi-star-fill"></i><i class="bi-star-fill"></i><i class="bi-star-fill"></i><i class="bi-star"></i>
+            <div class="price">
+              <p><i class="bi-currency-dollar" style="font-size: 1.2rem;"></i>32.00 <span>40.00</span></p>
+            </div>
+            <div class="add">
+              <div class="add-content">
+                <button id="add-cart">Add to Cart</button>
+              <i id="Wishlist" class="bi-heart" style="font-size: 2rem;"></i>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="footwear-item">
+            <img width="200" src="./shoe/4.jpeg" alt="">
+          <div class="terms">
+            <h5>Red Converse</h5>
+            <h6>Red Unisex Shoe</h6>
+            <i class="bi-star-fill"></i><i class="bi-star-fill"></i><i class="bi-star-fill"></i><i class="bi-star"></i><i class="bi-star"></i>
+            <div class="price">
+              <p><i class="bi-currency-dollar" style="font-size: 1.2rem;"></i>23.00 <span>30.00</span></p>
+            </div>
+            <div class="add">
+              <div class="add-content">
+                <button id="add-cart">Add to Cart</button>
+              <i id="Wishlist" class="bi-heart" style="font-size: 2rem;"></i>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="footwear-item">
+            <img width="200" src="./shoe/8.jpeg" alt="">
+          <div class="terms">
+            <h5>Sports Shoe</h5>
+            <h6>Unisex  Sports Shoe</h6>
+            <i class="bi-star-fill"></i><i class="bi-star-fill"></i><i class="bi-star-fill"></i><i class="bi-star-half"></i><i class="bi-star"></i>
+            <div class="price">
+              <p><i class="bi-currency-dollar" style="font-size: 1.2rem;"></i>25.00 <span>55.00</span></p>
+            </div>
+            <div class="add">
+              <div class="add-content">
+                <button id="add-cart">Add to Cart</button>
+              <i id="Wishlist" class="bi-heart" style="font-size: 2rem;"></i>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="footwear-item">
+            <img width="200" src="./shoe/5.jpeg" alt="">
+          <div class="terms">
+            <h5>Brown Shoe</h5>
+            <h6>Unisex Brown Shoe</h6>
+            <i class="bi-star-fill"></i><i class="bi-star-fill"></i><i class="bi-star-fill"></i><i class="bi-star-half"></i><i class="bi-star"></i>
+            <div class="price">
+              <p><i class="bi-currency-dollar" style="font-size: 1.2rem;"></i>44.00 <span>65.00</span></p>
+            </div>
+            <div class="add">
+              <div class="add-content">
+                <button id="add-cart">Add to Cart</button>
+              <i id="Wishlist" class="bi-heart" style="font-size: 2rem;"></i>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="footwear-item">
+            <img width="200" src="./ladies/2i.jpeg" alt="">
+          <div class="terms">
+            <h5>Ladies Shoe</h5>
+            <h6>Ladies Coporate Shoe</h6>
+            <i class="bi-star-fill"></i><i class="bi-star-fill"></i><i class="bi-star-fill"></i><i class="bi-star-half"></i><i class="bi-star"></i>
+            <div class="price">
+              <p><i class="bi-currency-dollar" style="font-size: 1.2rem;"></i>30.00 <span>45.00</span></p>
+            </div>
+            <div class="add">
+              <div class="add-content">
+                <button id="add-cart">Add to Cart</button>
+              <i id="Wishlist" class="bi-heart" style="font-size: 2rem;"></i>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="footwear-item">
+            <img width="200" src="./ladies/3.jpeg" alt="">
+          <div class="terms">
+            <h5>Sneakers</h5>
+            <h6>Silver Sneakers</h6>
+            <i class="bi-star-fill"></i><i class="bi-star-fill"></i><i class="bi-star-fill"></i><i class="bi-star-half"></i><i class="bi-star"></i>
+            <div class="price">
+              <p><i class="bi-currency-dollar" style="font-size: 1.2rem;"></i>45.00 <span>65.00</span></p>
+            </div>
+            <div class="add">
+              <div class="add-content">
+                <button id="add-cart">Add to Cart</button>
+              <i id="Wishlist" class="bi-heart" style="font-size: 2rem;"></i>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="footwear-item">
+            <img width="200" src="./ladies/4.jpeg" alt="">
+          <div class="terms">
+            <h5>Hiking boots</h5>
+            <h6>Ladies Black Hiking boots</h6>
+            <i class="bi-star-fill"></i><i class="bi-star-fill"></i><i class="bi-star-fill"></i><i class="bi-star-half"></i><i class="bi-star"></i>
+            <div class="price">
+              <p><i class="bi-currency-dollar" style="font-size: 1.2rem;"></i>50.00 <span>75.00</span></p>
+            </div>
+            <div class="add">
+              <div class="add-content">
+                <button id="add-cart">Add to Cart</button>
+              <i id="Wishlist" class="bi-heart" style="font-size: 2rem;"></i>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="footwear-item">
+            <img width="200" src="./ladies/5.jpeg" alt="">
+          <div class="terms">
+            <h5>Loafers</h5>
+            <h6>Black Loafer Shoe</h6>
+            <i class="bi-star-fill"></i><i class="bi-star-fill"></i><i class="bi-star-fill"></i><i class="bi-star-half"></i><i class="bi-star"></i>
+            <div class="price">
+              <p><i class="bi-currency-dollar" style="font-size: 1.2rem;"></i>40.00 <span>55.00</span></p>
+            </div>
+            <div class="add">
+              <div class="add-content">
+                <button id="add-cart">Add to Cart</button>
+              <i id="Wishlist" class="bi-heart" style="font-size: 2rem;"></i>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="footwear-item">
+            <img width="200" src="./ladies/16i.jpeg" alt="">
+          <div class="terms">
+            <h5>High heels</h5>
+            <h6>Silver High heels</h6>
+            <i class="bi-star-fill"></i><i class="bi-star-fill"></i><i class="bi-star-fill"></i><i class="bi-star-half"></i><i class="bi-star"></i>
+            <div class="price">
+              <p><i class="bi-currency-dollar" style="font-size: 1.2rem;"></i>60.00 <span>75.00</span></p>
+            </div>
+            <div class="add">
+              <div class="add-content">
+                <button id="add-cart">Add to Cart</button>
+              <i id="Wishlist" class="bi-heart" style="font-size: 2rem;"></i>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+      <!-- end of footwear section -->
+
+
+      <!-- accessories section -->
+       <div class="accessories margin" id="text-4">
+      <div class="accessories-content">
+        <div class="accessories-item">
+            <img width="200" src="./Tshirts/1.webp" alt="">
+          <div class="terms">
+            <h5>Shoe</h5>
+            <h6>Unisex Shoe</h6>
+            <i class="bi-star-fill"></i><i class="bi-star-fill"></i><i class="bi-star-fill"></i><i class="bi-star-half"></i><i class="bi-star"></i>
+            <div class="price">
+              <p><i class="bi-currency-dollar" style="font-size: 1.2rem;"></i>25.00 <span>30.00</span></p>
+            </div>
+            <div class="add">
+              <div class="add-content">
+                <button id="add-cart">Add to Cart</button>
+              <i id="Wishlist" class="bi-heart" style="font-size: 2rem;"></i>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="accessories-item">
+            <img width="200" src="./Tshirts/10.webp" alt="">
+          <div class="terms">
+            <h5>Silver Shoe</h5>
+            <h6>Ladies Fashion Shoe</h6>
+            <i class="bi-star-fill"></i><i class="bi-star-fill"></i><i class="bi-star-fill"></i><i class="bi-star-fill"></i><i class="bi-star"></i>
+            <div class="price">
+              <p><i class="bi-currency-dollar" style="font-size: 1.2rem;"></i>70.00 <span>90.00</span></p>
+            </div>
+            <div class="add">
+              <div class="add-content">
+                <button id="add-cart">Add to Cart</button>
+              <i id="Wishlist" class="bi-heart" style="font-size: 2rem;"></i>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="accessories-item">
+            <img width="200" src="./Tshirts/11.webp" alt="">
+          <div class="terms">
+            <h5>Lipstick</h5>
+            <h6>Red Lipstick</h6>
+            <i class="bi-star-fill"></i><i class="bi-star-fill"></i><i class="bi-star-fill"></i><i class="bi-star"></i><i class="bi-star"></i>
+            <div class="price">
+              <p><i class="bi-currency-dollar" style="font-size: 1.2rem;"></i>15.00 <span>20.00</span></p>
+            </div>
+            <div class="add">
+              <div class="add-content">
+                <button id="add-cart">Add to Cart</button>
+              <i id="Wishlist" class="bi-heart" style="font-size: 2rem;"></i>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="accessories-item">
+            <img width="200" src="./Tshirts/12.png" alt="">
+          <div class="terms">
+            <h5>Cargo Pant</h5>
+            <h6>Unisex Cargo Pant</h6>
+            <i class="bi-star-fill"></i><i class="bi-star-fill"></i><i class="bi-star-fill"></i><i class="bi-star-half"></i><i class="bi-star"></i>
+            <div class="price">
+              <p><i class="bi-currency-dollar" style="font-size: 1.2rem;"></i>50.00 <span>65.00</span></p>
+            </div>
+            <div class="add">
+              <div class="add-content">
+                <button id="add-cart">Add to Cart</button>
+              <i id="Wishlist" class="bi-heart" style="font-size: 2rem;"></i>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="accessories-item">
+            <img width="200" src="./Tshirts/14.png" alt="">
+          <div class="terms">
+            <h5>Puffer Jacket</h5>
+            <h6>Unisex Puffer Jacket</h6>
+            <i class="bi-star-fill"></i><i class="bi-star-fill"></i><i class="bi-star-fill"></i><i class="bi-star-half"></i><i class="bi-star"></i>
+            <div class="price">
+              <p><i class="bi-currency-dollar" style="font-size: 1.2rem;"></i>60.00 <span>75.00</span></p>
+            </div>
+            <div class="add">
+              <div class="add-content">
+                <button id="add-cart">Add to Cart</button>
+              <i id="Wishlist" class="bi-heart" style="font-size: 2rem;"></i>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="accessories-item">
+            <img width="200" src="./Tshirts/5.webp" alt="">
+          <div class="terms">
+            <h5>Puffer Jacket</h5>
+            <h6>Unisex Puffer Jacket</h6>
+            <i class="bi-star-fill"></i><i class="bi-star-fill"></i><i class="bi-star-fill"></i><i class="bi-star-half"></i><i class="bi-star"></i>
+            <div class="price">
+              <p><i class="bi-currency-dollar" style="font-size: 1.2rem;"></i>60.00 <span>75.00</span></p>
+            </div>
+            <div class="add">
+              <div class="add-content">
+                <button id="add-cart">Add to Cart</button>
+              <i id="Wishlist" class="bi-heart" style="font-size: 2rem;"></i>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="accessories-item">
+            <img width="200" src="./Tshirts/3.webp" alt="">
+          <div class="terms">
+            <h5>Puffer Jacket</h5>
+            <h6>Unisex Puffer Jacket</h6>
+            <i class="bi-star-fill"></i><i class="bi-star-fill"></i><i class="bi-star-fill"></i><i class="bi-star-half"></i><i class="bi-star"></i>
+            <div class="price">
+              <p><i class="bi-currency-dollar" style="font-size: 1.2rem;"></i>60.00 <span>75.00</span></p>
+            </div>
+            <div class="add">
+              <div class="add-content">
+                <button id="add-cart">Add to Cart</button>
+              <i id="Wishlist" class="bi-heart" style="font-size: 2rem;"></i>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="accessories-item">
+            <img width="200" src="./Tshirts/2.webp" alt="">
+          <div class="terms">
+            <h5>Puffer Jacket</h5>
+            <h6>Unisex Puffer Jacket</h6>
+            <i class="bi-star-fill"></i><i class="bi-star-fill"></i><i class="bi-star-fill"></i><i class="bi-star-half"></i><i class="bi-star"></i>
+            <div class="price">
+              <p><i class="bi-currency-dollar" style="font-size: 1.2rem;"></i>60.00 <span>75.00</span></p>
+            </div>
+            <div class="add">
+              <div class="add-content">
+                <button id="add-cart">Add to Cart</button>
+              <i id="Wishlist" class="bi-heart" style="font-size: 2rem;"></i>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="accessories-item">
+            <img width="200" src="./Tshirts/16.jpg" alt="">
+          <div class="terms">
+            <h5>Puffer Jacket</h5>
+            <h6>Unisex Puffer Jacket</h6>
+            <i class="bi-star-fill"></i><i class="bi-star-fill"></i><i class="bi-star-fill"></i><i class="bi-star-half"></i><i class="bi-star"></i>
+            <div class="price">
+              <p><i class="bi-currency-dollar" style="font-size: 1.2rem;"></i>60.00 <span>75.00</span></p>
+            </div>
+            <div class="add">
+              <div class="add-content">
+                <button id="add-cart">Add to Cart</button>
+              <i id="Wishlist" class="bi-heart" style="font-size: 2rem;"></i>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="accessories-item">
+            <img width="200" src="./Tshirts/15.png" alt="">
+          <div class="terms">
+            <h5>Puffer Jacket</h5>
+            <h6>Unisex Puffer Jacket</h6>
+            <i class="bi-star-fill"></i><i class="bi-star-fill"></i><i class="bi-star-fill"></i><i class="bi-star-half"></i><i class="bi-star"></i>
+            <div class="price">
+              <p><i class="bi-currency-dollar" style="font-size: 1.2rem;"></i>60.00 <span>75.00</span></p>
+            </div>
+            <div class="add">
+              <div class="add-content">
+                <button id="add-cart">Add to Cart</button>
+              <i id="Wishlist" class="bi-heart" style="font-size: 2rem;"></i>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+      <!-- end of accessories section -->
+
+      <!-- inquire section -->
+    <div class="all-inquire margin">
+      <div class="inquire-content">
+        <div class="inquire">
+          <i class="bi-truck" style="font-size: 2.7rem;"></i>
+          <h6>Free Shipping</h6>
+          <p>Free shipping on order above $200</p>
+        </div>
+        <div class="inquire">
+          <i class="bi-telephone" style="font-size: 2.5rem;"></i>
+          <h6>24 X 7 Support</h6>
+          <p>Contact us 24 hours a day, 7 days a week</p>
+        </div>
+        <div class="inquire">
+          <i class="bi-repeat" style="font-size: 2.7rem;"></i>
+          <h6>30 Days Return</h6>
+          <p>Simply return it within 30 days for an exchange</p>
+        </div>
+        <div class="inquire">
+          <i class="bi-coin" style="font-size: 2.7rem;"></i>
+          <h6>Payment Secure</h6>
+          <p>Contact us 24 hours a day, 7 days a week</p>
+        </div>
+      </div>
+    </div>
+      <!-- end of inquire section -->
+
+    
+  <!-- trending section -->
+  <div class="all-days margin">
+    <div class="days-content-1">
+      <div class="days-left">
+        <h4>Trending <span>Items</span></h4>
+      </div>
+      <div class="days-right">
+        <i class="bi-chevron-left prev"></i>
+        <i class="bi-chevron-right next"></i>
+      </div>
+    </div>
+    <div class="trend">
+      <div class="trend-inner">
+        <div class="trend-content">
+          <div class="trending">
+          <div class="trend-item">
+            <div class="trend-img">
+              <img width="50" src="./Tshirts/14.png" alt="">
+            </div>
+            <div class="trend-text">
+              <h5>Men's Stylish Shirt</h5>
+              <h6>Fashion</h6>
+               <p><i class="bi-currency-dollar"></i>45.00 <span>40.00</span></p>
+               <div class="adds">
+               <div class="adds-content">
+                <i id="adds-content" class="bi-heart" style="font-size: 1.2rem;"></i>
+                <i id="adds-content" class="bi-repeat" style="font-size: 1.2rem;"></i>
+                <i id="adds-content" class="bi-eye" style="font-size: 1.2rem;"></i>
+                <i id="adds-content" class="bi-cart4" style="font-size: 1.2rem;"></i>
+               </div>
+              </div>
+            </div>
+          </div>
+          <div class="trend-item">
+            <div class="trend-img">
+              <img width="50" src="./Tshirts/12.png" alt="">
+            </div>
+            <div class="trend-text">
+              <h5>Men's Stylish Shirt</h5>
+              <h6>Fashion</h6>
+               <p><i class="bi-currency-dollar"></i>45.00 <span>40.00</span></p>
+               <div class="adds">
+                <div class="adds-content">
+                 <i id="adds-content" class="bi-heart" style="font-size: 1.2rem;"></i>
+                 <i id="adds-content" class="bi-repeat" style="font-size: 1.2rem;"></i>
+                 <i id="adds-content" class="bi-eye" style="font-size: 1.2rem;"></i>
+                 <i id="adds-content" class="bi-cart4" style="font-size: 1.2rem;"></i>
+                </div>
+               </div>
+            </div>
+          </div>
+          <div class="trend-item">
+            <div class="trend-img">
+              <img width="50" src="./Tshirts/13.png" alt="">
+            </div>
+            <div class="trend-text">
+              <h5>Men's Stylish Shirt</h5>
+              <h6>Fashion</h6>
+               <p><i class="bi-currency-dollar"></i>45.00 <span>40.00</span></p>
+               <div class="adds">
+                <div class="adds-content">
+                 <i id="adds-content" class="bi-heart" style="font-size: 1.2rem;"></i>
+                 <i id="adds-content" class="bi-repeat" style="font-size: 1.2rem;"></i>
+                 <i id="adds-content" class="bi-eye" style="font-size: 1.2rem;"></i>
+                 <i id="adds-content" class="bi-cart4" style="font-size: 1.2rem;"></i>
+                </div>
+               </div>
+            </div>
+          </div>
+          <div class="trend-item">
+            <div class="trend-img">
+              <img width="50" src="./Tshirts/15.png" alt="">
+            </div>
+            <div class="trend-text">
+              <h5>Men's Stylish Shirt</h5>
+              <h6>Fashion</h6>
+               <p><i class="bi-currency-dollar"></i>45.00 <span>40.00</span></p>
+               <div class="adds">
+                <div class="adds-content">
+                 <i id="adds-content" class="bi-heart" style="font-size: 1.2rem;"></i>
+                 <i id="adds-content" class="bi-repeat" style="font-size: 1.2rem;"></i>
+                 <i id="adds-content" class="bi-eye" style="font-size: 1.2rem;"></i>
+                 <i id="adds-content" class="bi-cart4" style="font-size: 1.2rem;"></i>
+                </div>
+               </div>
+            </div>
+          </div>
+        </div>
+      </div>
+        <div class="trend-content">
+          <div class="trending">
+          <div class="trend-item">
+            <div class="trend-img">
+              <img width="50" src="./Tshirts/1.webp" alt="">
+            </div>
+            <div class="trend-text">
+              <h5>Colored Shirt</h5>
+              <h6>Fashion</h6>
+               <p><i class="bi-currency-dollar"></i>45.00 <span>40.00</span></p>
+               <div class="adds">
+                <div class="adds-content">
+                 <i id="adds-content" class="bi-heart" style="font-size: 1.2rem;"></i>
+                 <i id="adds-content" class="bi-repeat" style="font-size: 1.2rem;"></i>
+                 <i id="adds-content" class="bi-eye" style="font-size: 1.2rem;"></i>
+                 <i id="adds-content" class="bi-cart4" style="font-size: 1.2rem;"></i>
+                </div>
+               </div>
+            </div>
+          </div>
+          <div class="trend-item">
+            <div class="trend-img">
+              <img width="50" src="./Tshirts/11.webp" alt="">
+            </div>
+            <div class="trend-text">
+              <h5>Tshirt</h5>
+              <h6>Fashion</h6>
+               <p><i class="bi-currency-dollar"></i>45.00 <span>40.00</span></p>
+               <div class="adds">
+                <div class="adds-content">
+                 <i id="adds-content" class="bi-heart" style="font-size: 1.2rem;"></i>
+                 <i id="adds-content" class="bi-repeat" style="font-size: 1.2rem;"></i>
+                 <i id="adds-content" class="bi-eye" style="font-size: 1.2rem;"></i>
+                 <i id="adds-content" class="bi-cart4" style="font-size: 1.2rem;"></i>
+                </div>
+               </div>
+            </div>
+          </div>
+          <div class="trend-item">
+            <div class="trend-img">
+              <img width="50" src="./Tshirts/10.webp" alt="">
+            </div>
+            <div class="trend-text">
+              <h5>Stylish Shirt</h5>
+              <h6>Fashion</h6>
+               <p><i class="bi-currency-dollar"></i>45.00 <span>40.00</span></p>
+               <div class="adds">
+                <div class="adds-content">
+                 <i id="adds-content" class="bi-heart" style="font-size: 1.2rem;"></i>
+                 <i id="adds-content" class="bi-repeat" style="font-size: 1.2rem;"></i>
+                 <i id="adds-content" class="bi-eye" style="font-size: 1.2rem;"></i>
+                 <i id="adds-content" class="bi-cart4" style="font-size: 1.2rem;"></i>
+                </div>
+               </div>
+            </div>
+          </div>
+          <div class="trend-item">
+            <div class="trend-img">
+              <img width="50" src="./Tshirts/5.webp" alt="">
+            </div>
+            <div class="trend-text">
+              <h5>designed Shirt</h5>
+              <h6>Fashion</h6>
+               <p><i class="bi-currency-dollar"></i>45.00 <span>40.00</span></p>
+               <div class="adds">
+                <div class="adds-content">
+                 <i id="adds-content" class="bi-heart" style="font-size: 1.2rem;"></i>
+                 <i id="adds-content" class="bi-repeat" style="font-size: 1.2rem;"></i>
+                 <i id="adds-content" class="bi-eye" style="font-size: 1.2rem;"></i>
+                 <i id="adds-content" class="bi-cart4" style="font-size: 1.2rem;"></i>
+                </div>
+               </div>
+            </div>
+          </div>
+        </div>
+        </div>
+      </div>
+      </div>
+    </div>
+  <!-- end of trending section -->
+
+      <!-- rated section -->
+    <div class="all-days margin">
+        <div class="days-content-1">
+          <div class="days-left">
+            <h4>Top <span>Rated</span></h4>
+          </div>
+          <div class="days-right">
+            <i class="bi-chevron-left previous"></i>
+            <i class="bi-chevron-right nexting"></i>
+          </div>
+        </div>
+        <div class="rate">
+          <div class="rate-inner">
+            <div class="rate-content">
+              <div class="rating">
+              <div class="rate-item">
+                <div class="rate-img">
+                  <img width="50" src="./Tshirts/14.png" alt="">
+                </div>
+                <div class="rate-text">
+                  <h5>Men's Stylish Shirt</h5>
+                  <h6>Fashion</h6>
+                    <p><i class="bi-currency-dollar"></i>45.00 <span>40.00</span></p>
+                    <div class="adds">
+                      <div class="adds-content">
+                       <i id="adds-content" class="bi-heart" style="font-size: 1.2rem;"></i>
+                       <i id="adds-content" class="bi-repeat" style="font-size: 1.2rem;"></i>
+                       <i id="adds-content" class="bi-eye" style="font-size: 1.2rem;"></i>
+                       <i id="adds-content" class="bi-cart4" style="font-size: 1.2rem;"></i>
+                      </div>
+                     </div>
+                </div>
+              </div>
+              <div class="rate-item">
+                <div class="rate-img">
+                  <img width="50" src="./Tshirts/12.png" alt="">
+                </div>
+                <div class="rate-text">
+                  <h5>Men's Stylish Shirt</h5>
+                  <h6>Fashion</h6>
+                   <p><i class="bi-currency-dollar"></i>45.00 <span>40.00</span></p>
+                   <div class="adds">
+                    <div class="adds-content">
+                     <i id="adds-content" class="bi-heart" style="font-size: 1.2rem;"></i>
+                     <i id="adds-content" class="bi-repeat" style="font-size: 1.2rem;"></i>
+                     <i id="adds-content" class="bi-eye" style="font-size: 1.2rem;"></i>
+                     <i id="adds-content" class="bi-cart4" style="font-size: 1.2rem;"></i>
+                    </div>
+                   </div>
+                </div>
+              </div>
+              <div class="rate-item">
+                <div class="rate-img">
+                  <img width="50" src="./Tshirts/13.png" alt="">
+                </div>
+                <div class="rate-text">
+                  <h5>Men's Stylish Shirt</h5>
+                  <h6>Fashion</h6>
+                   <p><i class="bi-currency-dollar"></i>45.00 <span>40.00</span></p>
+                   <div class="adds">
+                    <div class="adds-content">
+                     <i id="adds-content" class="bi-heart" style="font-size: 1.2rem;"></i>
+                     <i id="adds-content" class="bi-repeat" style="font-size: 1.2rem;"></i>
+                     <i id="adds-content" class="bi-eye" style="font-size: 1.2rem;"></i>
+                     <i id="adds-content" class="bi-cart4" style="font-size: 1.2rem;"></i>
+                    </div>
+                   </div>
+                </div>
+              </div>
+              <div class="rate-item">
+                <div class="rate-img">
+                  <img width="50" src="./Tshirts/15.png" alt="">
+                </div>
+                <div class="rate-text">
+                  <h5>Men's Stylish Shirt</h5>
+                  <h6>Fashion</h6>
+                   <p><i class="bi-currency-dollar"></i>45.00 <span>40.00</span></p>
+                   <div class="adds">
+                    <div class="adds-content">
+                     <i id="adds-content" class="bi-heart" style="font-size: 1.2rem;"></i>
+                     <i id="adds-content" class="bi-repeat" style="font-size: 1.2rem;"></i>
+                     <i id="adds-content" class="bi-eye" style="font-size: 1.2rem;"></i>
+                     <i id="adds-content" class="bi-cart4" style="font-size: 1.2rem;"></i>
+                    </div>
+                   </div>
+                </div>
+              </div>
+            </div>
+          </div>
+            <div class="rate-content">
+              <div class="rating">
+              <div class="rate-item">
+                <div class="rate-img">
+                  <img width="50" src="./Tshirts/1.webp" alt="">
+                </div>
+                <div class="rate-text">
+                  <h5>Colored Shirt</h5>
+                  <h6>Fashion</h6>
+                   <p><i class="bi-currency-dollar"></i>45.00 <span>40.00</span></p>
+                   <div class="adds">
+                    <div class="adds-content">
+                     <i id="adds-content" class="bi-heart" style="font-size: 1.2rem;"></i>
+                     <i id="adds-content" class="bi-repeat" style="font-size: 1.2rem;"></i>
+                     <i id="adds-content" class="bi-eye" style="font-size: 1.2rem;"></i>
+                     <i id="adds-content" class="bi-cart4" style="font-size: 1.2rem;"></i>
+                    </div>
+                   </div>
+                </div>
+              </div>
+              <div class="rate-item">
+                <div class="rate-img">
+                  <img width="50" src="./Tshirts/11.webp" alt="">
+                </div>
+                <div class="rate-text">
+                  <h5>Tshirt</h5>
+                  <h6>Fashion</h6>
+                   <p><i class="bi-currency-dollar"></i>45.00 <span>40.00</span></p>
+                   <div class="adds">
+                    <div class="adds-content">
+                     <i id="adds-content" class="bi-heart" style="font-size: 1.2rem;"></i>
+                     <i id="adds-content" class="bi-repeat" style="font-size: 1.2rem;"></i>
+                     <i id="adds-content" class="bi-eye" style="font-size: 1.2rem;"></i>
+                     <i id="adds-content" class="bi-cart4" style="font-size: 1.2rem;"></i>
+                    </div>
+                   </div>
+                </div>
+              </div>
+              <div class="rate-item">
+                <div class="rate-img">
+                  <img width="50" src="./Tshirts/10.webp" alt="">
+                </div>
+                <div class="rate-text">
+                  <h5>Stylish Shirt</h5>
+                  <h6>Fashion</h6>
+                   <p><i class="bi-currency-dollar"></i>45.00 <span>40.00</span></p>
+                   <div class="adds">
+                    <div class="adds-content">
+                     <i id="adds-content" class="bi-heart" style="font-size: 1.2rem;"></i>
+                     <i id="adds-content" class="bi-repeat" style="font-size: 1.2rem;"></i>
+                     <i id="adds-content" class="bi-eye" style="font-size: 1.2rem;"></i>
+                     <i id="adds-content" class="bi-cart4" style="font-size: 1.2rem;"></i>
+                    </div>
+                   </div>
+                </div>
+              </div>
+              <div class="rate-item">
+                <div class="rate-img">
+                  <img width="50" src="./Tshirts/5.webp" alt="">
+                </div>
+                <div class="rate-text">
+                  <h5>designed Shirt</h5>
+                  <h6>Fashion</h6>
+                   <p><i class="bi-currency-dollar"></i>45.00 <span>40.00</span></p>
+                   <div class="adds">
+                    <div class="adds-content">
+                     <i id="adds-content" class="bi-heart" style="font-size: 1.2rem;"></i>
+                     <i id="adds-content" class="bi-repeat" style="font-size: 1.2rem;"></i>
+                     <i id="adds-content" class="bi-eye" style="font-size: 1.2rem;"></i>
+                     <i id="adds-content" class="bi-cart4" style="font-size: 1.2rem;"></i>
+                    </div>
+                   </div>
+                </div>
+              </div>
+            </div>
+            </div>
+          </div>
+          </div>
+        </div>
+      <!-- end of rated section -->
+
+      <!-- blog section -->
+      <div class="all-blog margin">
+        <div class="blog-content">
+          <div class="blog-left">
+            <h4>Latest <span>Blog</span></h4>
+            <p>We tackle interesting topics every day in 2025.</p>
+          </div>
+          <div class="blog-right">
+            <a href="">All Blogs <i class="bi-chevron-double-right" style="font-size: 0.7rem;"></i></a>
+          </div>
+        </div>
+        <div class="blog-product">
+          <div class="blog-item">
+            <img width="100" src="./blog/4.jpg" alt="">
+            <div class="blog-text">
+              <p>Marketing Guide: 5 Steps to Success way.</p>
+              <a href="">Read More <i class="bi-chevron-double-right" style="font-size: 0.7rem;"></i></a>
+            </div>
+          </div>
+          <div class="blog-item">
+            <img width="100" src="./blog/6.jpg" alt="">
+            <div class="blog-text">
+              <p>Best way to solve business deal issue in market.</p>
+              <a href="">Read More <i class="bi-chevron-double-right" style="font-size: 0.7rem;"></i></a>
+            </div>
+          </div>
+          <div class="blog-item">
+            <img width="100" src="./blog/5.jpeg" alt="">
+            <div class="blog-text">
+              <p>35 Fashion customer service stats to know in 2025.</p>
+              <a href="">Read More <i class="bi-chevron-double-right" style="font-size: 0.7rem;"></i></a>
+            </div>
+          </div>
+          <div class="blog-item">
+            <img width="100" src="./blog/3.jpg" alt="">
+            <div class="blog-text">
+              <p>Business ideas to grow your business traffic.</p>
+              <a href="">Read More <i class="bi-chevron-double-right" style="font-size: 0.7rem;"></i></a>
+            </div>
+          </div>
+        </div>
+        </div>
+      <!-- end of blog section -->
+        
+      <!-- back to top section -->
+       <div class="back-to-top">
+      <i class="bi-chevron-up"></i>
+    </div>
+      <!-- end of back to top section -->
+
+      <!-- footer section -->
+       <div class="all-footer">
+        <div class="footer-content margin">
+          <div class="foot-1">
+            <a href="index.html"><img class="mb-3" width="180" src="./logos/foot.png" alt=""></a>
+            <p><span>Zybo</span> is the biggest market of Fashion, Cosmetics and Electronics products. Get your daily needs from our store.</p>
+          </div>
+          <div class="foot-2">
+            <h5>Category</h5>
+            <div class="line"></div>
+            <span><a href="">Fashion 1</a></span>
+            <span><a href="">Fashion 2</a></span>
+            <span><a href="">Cosmetics</a></span>
+            <span><a href="">Electronics</a></span>
+            <span><a href="">Accessories</a></span>
+          </div>
+          <div class="foot-3">
+            <h5>Company</h5>
+            <div class="line"></div>
+            <span><a href="">About us</a></span>
+            <span><a href="">Delivery</a></span>
+            <span><a href="">Terms & Condition</a></span>
+            <span><a href="">Secure Payment</a></span>
+            <span><a href="">Contact us</a></span>
+          </div>
+          <div class="foot-4">
+            <h5>Account</h5>
+            <div class="line"></div>
+            <span><a href="login.html">Sign in</a></span>
+            <span><a href="">View Cart</a></span>
+            <span><a href="">Return Policy</a></span>
+            <span><a href="">Become a vendor</a></span>
+            <span><a href="">Payment</a></span>
+          </div>
+          <div class="foot-5">
+            <h5>Contact</h5>
+            <div class="line"></div>
+            <div class="locate">
+              <i class="bi-geo-alt" style="font-size: 1.1rem;"></i>
+              <p>267 The Hyundai Seoul Department Store, Korea.</p>
+            </div>
+            <div class="locate">
+              <i class="bi-whatsapp" style="font-size: 1.1rem;"></i>
+              <p>+2348107723149</p>
+            </div>
+            <span><a href="">
+              <div class="locate">
+                <i class="bi-envelope" style="font-size: 1.1rem;"></i>
+                <p>zybo@gmail.com</p>
+              </div>
+            </a></span>
+            <span>
+              <div class="social">
+                <a href=""><i class="bi-facebook" style="font-size: 1.5rem;"></i></a><a href=""><i class="bi-twitter-x" style="font-size: 1.5rem;"></i></a><a href=""><i class="bi-linkedin" style="font-size: 1.5rem;"></i></a><a href=""><i class="bi-instagram" style="font-size: 1.5rem;"></i></a>
+              </div>
+            </span>
+          </div>
+        </div>
+        <div class="copy margin">
+          <p>Copyright &copy; 2025 Zybo all rights reserved. <span>Developed by <a href="">Jo Nh</a></span></p>
+        </div>
+       </div>
+       <!-- end of footer section -->
+       <!-- <script>
+        document.addEventListener("DOMContentLoaded", function() {
+            setTimeout(() => {
+                const preloader = document.getElementById('preloader');
+                const content = document.querySelector('.content');
+    
+                //  hide the preloader and display content
+    
+                preloader.style.display = 'none';
+                content.style.display = 'block';
+            }, 5000)
+        })
+    </script> -->
+
+<script src="./js/index.js"></script>
+  <script src="./dist/js/bootstrap.bundle.js"></script>
+</body>
+</html>

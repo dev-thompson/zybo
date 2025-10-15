@@ -1,0 +1,300 @@
+*{
+    margin: 0;
+}
+/* global design */
+:root{
+    --color:#DE600F;
+    --primary:#076333;
+    --secondary:#ffffff;
+    --tertiary:#000000;
+    --text:#555;
+    --item:#fbfbfb;
+    --span:#c6c6c6;
+    --family:sans-serif;
+    --border:#e9e9e9;
+    --dash:#ff9452;
+    --ot:#777676;
+    --success:rgb(5, 213, 5);
+}
+.margin-1{
+    margin: 0 7%;
+}
+.margin{
+    margin:0 5%;
+}
+/* end of global design */
+body{
+    font-family:var(--family);
+    background-color: #f0f0f0;
+}
+/* hero dection */
+.dashboard-content p{
+    color: var(--tertiary);
+    font-size: 13px;
+}
+.dashboard-content a{
+    color: var(--primary);
+    text-decoration: none;
+}
+.p{
+    height: 2px;
+    width: 100%;
+    background-color:var(--border);
+}
+.c{
+    height: 2px;
+    width: 100%;
+    background-color:var(--border);
+    margin-top: 5px;
+}
+.left-item h6{
+    padding:13px 10px 5px 10px;
+    color: var(--text);
+    display: flex;
+    gap: 5px;
+    align-items: center;
+    cursor: pointer;
+    font-size: 12px;
+}
+.left-item{
+    background-color: var(--secondary);
+    padding: 10px;
+    border-radius: 3px;
+}
+.bi-arrow-right{
+    display:none;
+    font-size: 0.7rem;
+}
+.left-item h6:hover{
+    color: blue;
+}
+.left-item :hover .bi-arrow-right{
+    color: blue;
+    display: block;
+}
+/* over section */
+.right-item{
+    background-color: var(--secondary);
+    padding: 10px 10px 40px 10px;
+    border-radius: 3px;
+}
+.over h6{
+    font-size: 13px;
+    color: var(--text);
+}
+.over{
+    display: block;
+}
+.details{
+    padding: 20px 20px;
+    border: 1px solid var(--border);
+    margin-bottom: 150px;
+}
+.details p{
+    color: var(--text);
+    font-size: 13px;
+}
+.details h5{
+    font-weight: bold;
+    font-size: 19px;
+}
+.wallet{
+    padding: 35px 20px 20px 20px;
+    border: 1px solid var(--border);
+}
+.wallet p{
+    color: var(--text);
+    font-size: 13px;
+    font-weight: bold;
+    display: flex;
+    align-items: baseline;
+}
+.wallet h5{
+    font-weight: bold;
+    font-size: 19px;
+}
+.wallet button{
+    border: none;
+    outline: none;
+    background-color: var(--color);
+    color: var(--secondary);
+    font-size: 13px;
+    padding: 8px 13px;
+    border-radius: 3px;
+}
+.wallet span{
+    color: var(--color);
+}
+.right-1 {
+    display:block;
+}
+.dashboard-item{
+    display: flex;
+    gap: 20px;
+}
+.dash-left{
+    width: 30%;
+}
+.dash-right{
+    width: 70%;
+}
+.dashboard-content{
+    width: 75%;
+    margin: 40px auto;
+}
+.ship p{
+    color: var(--text);
+    font-size: 13px;
+    display: flex;
+    align-items: baseline;
+}
+.ship h6{
+    color: var(--text);
+    font-size: 13px;
+    display: flex;
+    align-items: baseline;
+}
+.ship a{
+    color: var(--color);
+    font-size: 13px;
+    display: flex;
+    gap: 3px;
+    align-items: baseline;
+}
+.ship h5{
+    font-weight: bold;
+    font-size: 19px;
+}
+.ship{
+    padding: 30px 20px 20px 20px;
+    border: 1px solid var(--border);
+    height: fit-content;
+    width: 100%;
+}
+.right-details{
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+.right-content{
+    width: 100%;
+}
+/* end of over section */
+
+/* order section */
+
+.see a{
+    font-size: 13px;
+    text-decoration: none;
+    color: var(--color);
+    display: flex;
+    text-align: right;
+}
+.order-1 h6{
+    font-size: 15px;
+    color: var(--text);
+    font-weight: bolder;
+}
+.order-1{
+    display: flex;
+    align-items:flex-start;
+    justify-content: space-between;
+    padding: 10px;
+    border: 1.7px solid var(--border);
+}
+.o-text{
+    display:flex;
+    gap: 10px;
+}
+.ot p{
+    font-size: 8px;
+    padding: 5px;
+    background-color:var(--success);
+    color: var(--secondary);
+    width: fit-content;
+}
+.ot h6{
+    font-weight: lighter;
+    font-size: 13px;
+}
+.ot h5{
+    font-weight: bolder;
+    color: var(--ot);
+    font-size: 16px;
+}
+.orders h6{
+    font-size: 13px;
+    color: var(--text);
+}
+.orders{
+    display: none;
+}
+/* end of order section */
+
+/* end of hero section */
+
+/* alert section */
+.ok{
+    border: none;
+    outline: none;
+    color: var(--secondary);
+    background-color: var(--color);
+    padding: 8px 12px;
+    border-radius: 15px;
+}
+.no{
+    outline: none;
+    color: var(--color);
+    background-color:transparent;
+    padding: 8px 12px;
+    border-radius: 15px;
+    border:1px solid var(--color);
+}
+.form-group label{
+    font-size: 13px;
+}
+input{
+    font-size: 13px;
+}
+/* end of alert section */
+
+.background-image{
+    background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(../img/12.jpg) no-repeat center center/cover;
+    height:35vh;
+    margin-bottom: 50px;
+}
+.get{
+    text-align: center;
+    align-items: center;
+    padding-top: 50px;
+}
+.get h4{
+    color: var(--secondary);
+    font-weight: bold;
+}
+.get p{
+    color: var(--secondary);
+    font-size: 15px;
+}
+.input-group{
+    width: 40%;
+    justify-self: center;
+}
+.input-group span{
+    font-size: 13px;
+    background-color: var(--color);
+    color: var(--secondary);
+    outline: none;
+    border: none;
+    display: flex;
+    gap: 5px;
+    align-items: center;
+    cursor: pointer;
+    border-radius: 20px;
+}
+.input-group ::placeholder{
+    font-size: 13px;
+}
+.input-group input{
+    border-radius: 20px;
+}

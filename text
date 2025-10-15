@@ -1,0 +1,243 @@
+  <!-- <script>
+    document.addEventListener("DOMContentLoaded", function(){
+        setTimeout(() => {
+            const preloader = document.getElementById('preloader');
+            const content = document.querySelector('.content');
+
+            //  hide the preloader and display content
+
+            preloader.style.display = 'none';
+            content.style.display = 'block';
+        }, 5000)
+    })
+</script> -->
+
+
+ <!-- <div id ="preloader">
+        <img src="./logos/logo.png" alt="preloader image" class="preloader-image">
+    </div>
+    <div class="content"> -->
+  <!-- trending section -->
+  <div class="all-days margin">
+    <div class="days-content">
+      <div class="days-left">
+        <h4>Trending <span>Items</span></h4>
+      </div>
+      <div class="days-right">
+        <i class="bi-chevron-left prev"></i>
+        <i class="bi-chevron-right next"></i>
+      </div>
+    </div>
+    <div class="trend">
+      <div class="trend-inner">
+        <div class="trend-content">
+          <div class="trending">
+          <div class="trend-item">
+            <div class="trend-img">
+              <img width="50" src="./Tshirts/14.png" alt="">
+            </div>
+            <div class="trend-text">
+              <h5>Men's Stylish Shirt</h5>
+              <h6>Fashion</h6>
+               <p><i class="bi-currency-dollar"></i>45.00 <span>40.00</span></p>
+            </div>
+          </div>
+          <div class="trend-item">
+            <div class="trend-img">
+              <img width="50" src="./Tshirts/12.png" alt="">
+            </div>
+            <div class="trend-text">
+              <h5>Men's Stylish Shirt</h5>
+              <h6>Fashion</h6>
+               <p><i class="bi-currency-dollar"></i>45.00 <span>40.00</span></p>
+            </div>
+          </div>
+          <div class="trend-item">
+            <div class="trend-img">
+              <img width="50" src="./Tshirts/13.png" alt="">
+            </div>
+            <div class="trend-text">
+              <h5>Men's Stylish Shirt</h5>
+              <h6>Fashion</h6>
+               <p><i class="bi-currency-dollar"></i>45.00 <span>40.00</span></p>
+            </div>
+          </div>
+          <div class="trend-item">
+            <div class="trend-img">
+              <img width="50" src="./Tshirts/15.png" alt="">
+            </div>
+            <div class="trend-text">
+              <h5>Men's Stylish Shirt</h5>
+              <h6>Fashion</h6>
+               <p><i class="bi-currency-dollar"></i>45.00 <span>40.00</span></p>
+            </div>
+          </div>
+        </div>
+      </div>
+        <div class="trend-content">
+          <div class="trending">
+          <div class="trend-item">
+            <div class="trend-img">
+              <img width="50" src="./Tshirts/1.webp" alt="">
+            </div>
+            <div class="trend-text">
+              <h5>Colored Shirt</h5>
+              <h6>Fashion</h6>
+               <p><i class="bi-currency-dollar"></i>45.00 <span>40.00</span></p>
+            </div>
+          </div>
+          <div class="trend-item">
+            <div class="trend-img">
+              <img width="50" src="./Tshirts/11.webp" alt="">
+            </div>
+            <div class="trend-text">
+              <h5>Tshirt</h5>
+              <h6>Fashion</h6>
+               <p><i class="bi-currency-dollar"></i>45.00 <span>40.00</span></p>
+            </div>
+          </div>
+          <div class="trend-item">
+            <div class="trend-img">
+              <img width="50" src="./Tshirts/10.webp" alt="">
+            </div>
+            <div class="trend-text">
+              <h5>Stylish Shirt</h5>
+              <h6>Fashion</h6>
+               <p><i class="bi-currency-dollar"></i>45.00 <span>40.00</span></p>
+            </div>
+          </div>
+          <div class="trend-item">
+            <div class="trend-img">
+              <img width="50" src="./Tshirts/5.webp" alt="">
+            </div>
+            <div class="trend-text">
+              <h5>designed Shirt</h5>
+              <h6>Fashion</h6>
+               <p><i class="bi-currency-dollar"></i>45.00 <span>40.00</span></p>
+            </div>
+          </div>
+        </div>
+        </div>
+      </div>
+      </div>
+    </div>
+  <!-- end of trending section -->
+
+
+
+
+
+        <!-- <style>
+    body{
+        margin: 0;
+    }
+    #preloader{
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background-color:#f3f3f3;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        z-index: 1000;
+    }
+    .preloader-image {
+        width: 150px;
+        height: 150px;
+        animation: zoom-in-out 3s ease-in-out infinite;
+    }
+    @keyframes zoom-in-out{
+        0%{
+            transform: scale(1);
+        }
+        30%{
+            transform: scale(1.5);
+        }
+        50%{
+            transform: scale(1);
+        }
+        80%{
+            transform: scale(1.2);
+        }
+        100%{
+            transform: scale(1);
+        }
+    }
+    .content {
+        display: none;
+    }
+    
+  </style> -->
+
+
+  <!-- <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel margin">
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+      </div>
+      <div class="carousel-item">
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div> -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <!-- Modal -->
+ <div class="modal" id="imageModal" tabindex="-1" aria-labelledby="imageModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h1 class="modal-title fs-5" id="imageModalLabel">Choose a language</h1>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <form>
+          <div class="form-group">
+              <label for="address">Edit Your Address</label>
+              <input type="text" name="address" value="No:12 alpha-road Abuja" id="address" class="form-control">
+          </div>
+          <div class="form-group">
+              <label for="phone">Edit Your Phone Number</label>
+              <input type="tel" name="phone" value="09069022856" id="phone" class="form-control">
+          </div>
+      </form>
+    </div>
+    <div class="modal-footer">
+      <button class="no" data-dismiss="modal">Cancel</button>
+      <button id="Confirm" class="ok">Confirm</button>
+  </div>
+  </div>
+</div>
+</div>
+  <!-- End of modal -->
+
+
+  <div class="ship">
+    <h5>Shipping Address</h5>
+    <p class="pb-5">John Thompson</p>
+    <h6 id="text1">No:12 alpha-road Abuja</h6>
+    <h6 id="text2">09069022856</h6>
+    <h6>johnthompson@gmail.com</h6>
+    <a href="#" data-bs-toggle="modal" data-bs-target="#imageModal">Edit <i class="bi-pencil-square" style="font-size: 0.7rem;"></i></a>
+</div>

@@ -3,7 +3,7 @@ const daysElement = document.getElementById('days');
 const hoursElement = document.getElementById('hours');
 const minutesElement = document.getElementById('minutes');
 const secondsElement = document.getElementById('seconds');
-const countdownDate = new Date('2025-04-16T00:00:00');
+const countdownDate = new Date('2025-11-16T00:00:00');
 
 function updateCountdown() {
     const now = new Date();
